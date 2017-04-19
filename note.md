@@ -1018,3 +1018,23 @@ Vim一共有4个模式：
 <html>
 
 [来源-细数前端中的一些黑科技 - MR_LP的博客 - 博客频道 - CSDN.NET](http://blog.csdn.net/mr_lp/article/details/53539218)
+
+---
+
+####  42)       14:10 2017/4/19 GitHub中"watch" "star" "fork"三个按钮干什么用的
+
+1.  想拷贝别人项目到自己帐号下就 `fork` 一下。
+2.  持续关注别人项目更新就 `star` 一下
+3.  `watch` 是设置接收邮件提醒的。
+
+[来源-GitHub中"watch" "star" "fork"三个按钮干什么用的_百度知道](https://zhidao.baidu.com/question/2053288558473167507.html)
+
+---
+
+####  43)       16:21 2017/4/19
+
+>不管有多少人共同参与同一项目，一定要确保每一行代码都像是同一个人编写的。
+
+[来源-编码规范 by @mdo](http://codeguide.bootcss.com/)
+
+---
