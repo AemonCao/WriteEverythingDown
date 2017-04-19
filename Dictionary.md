@@ -6,6 +6,7 @@
 |Animation|-|动画|-|-|
 |Application|APP|应用程序|-|-|
 |Baidu|-|百度；是一家主要经营搜索引擎服务的互联网公司，于 2000 年 1 月 1 日由李彦宏、徐勇两人创立于北京中关村；|[百度一下，你就知道](https://www.baidu.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb4dc1afb3e.png)|
+|Block Formatting Context|BFC|块级格式化上下文|[块格式化上下文 - Web开发者指南 \| MDN](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context)|-|
 |Carousel|-|转盘；轮播图|-|-|
 |Compile|-|编译；汇编|-|-|
 |Computer Science|CS|计算机科学|-|-|
