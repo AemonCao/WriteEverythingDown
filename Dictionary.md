@@ -42,9 +42,12 @@
 |Scalable Vector Graphics|SVG|可缩放矢量图形；是一种基于可扩展标记语言（XML），用于描述二维矢量图形的图形格式。|-|![logo](https://ooo.0o0.ooo/2017/04/10/58eb443284eb2.png)|
 |Shift|-|换档键；上档键|-|![Shift](https://ooo.0o0.ooo/2017/04/17/58f469c87326f.jpg)|
 |Space|-|空格|-|-|
+|Swap|-|换；掉换；交换；替换|-|-|
 |Tencent|-|腾讯；是一家民营IT的企业，总部位于中国广东深圳，于 2004 年 6 月 16 日在香港交易所上市。|[Tencent 腾讯](https://www.tencent.com/zh-cn/index.html)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb4c217dc73.png)|
+|Tracked|-|追踪；跟踪；跟踪状态|-|-|
 |Twitter|-|推特；是一个社交网络和一个微博客服务，它可以让用户更新不超过140个字符的消息，这些消息也被称作「推文（Tweet）」。|[Twitter](https://twitter.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb50b50fe33.png)|
 |Undo|-|撤销|-|-|
+|Untracked|-|未追踪；未跟踪；未跟踪状态|-|-|
 |Vi|-|是一种计算机文本编辑器，由美国计算机科学家比尔·乔伊（Bill Joy）完成编写于1976年发表，并以BSD授权发布。|-|-|
 |Vim|-|是从 vi 发展出来的一个文本编辑器。|[welcome home : vim online](http://www.vim.org/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb42e8df148.png)|
 |Vue.js|-|一个 JavaScript MVVM 库。|[Vue.js](https://cn.vuejs.org/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb2ea34a41c.png)|
