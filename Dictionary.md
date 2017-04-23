@@ -9,6 +9,8 @@
 |Block Formatting Context|BFC|块级格式化上下文|[块格式化上下文 - Web开发者指南 \| MDN](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context)|-|
 |Branch|-|分支|-|-|
 |Carousel|-|转盘；轮播图|-|-|
+|Common Intermediate Language|CIL|通用中间语言；是一种属于通用语言架构和.NET框架的低阶（lowest-level）的人类可读的编程语言。|[通用中间语言 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E4%B8%AD%E9%97%B4%E8%AF%AD%E8%A8%80)|-|
+|Common Language Runtime|CLR|通用语言运行平台；是微软为他们的.NET的虚拟机所选用的名称。|[通用语言运行库 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%AA%9E%E8%A8%80%E9%81%8B%E8%A1%8C%E5%BA%AB)|-|
 |Compile|-|编译；汇编|-|-|
 |Computer Science|CS|计算机科学|-|-|
 |Content|-|内容|-|-|
@@ -16,6 +18,7 @@
 |Copy|-|复制|-|-|
 |Create|-|创建|-|-|
 |Cut|-|剪切|-|-|
+|Dependency Injection|DI|依赖注入|-|-|
 |eBay|-|电子湾；亿贝；易贝；是管理可让全球民众上网买卖物品的线上拍卖及购物网站。|[Electronics, Cars, Fashion, Collectibles, Coupons and More \| eBay ](http://www.ebay.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb4e5468430.png)|
 |Enter|-|输入；回车键|-|-|
 |Escape|Esc|退出；退出键|-|-|
@@ -31,6 +34,7 @@
 |Jenga Code|-|当你加上一小块代码之后，就整个垮掉的那种代码。</br>Jenga 是一种非常流行的 party 玩具，如图。它的工作原理是，先把那些小木条堆成一个规则的塔。然后，参加游戏的人轮流从下面抽出一块（只能用一只手）来放在最上面。谁放上之后木塔垮掉了，谁就“胜利”了。之后这个人就要做其他人想出来的一些“惩罚”，跟真心话大冒险那些事情差不多。|[几个超炫的专业词汇](http://www.yinwang.org/blog-cn/2013/04/14/terminology)|![jenga-code](https://ooo.0o0.ooo/2017/04/12/58edca1d3a1fc.jpg)|
 |Microsoft|MS|微软；是美国一家跨国电脑科技公司，以研发、制造、授权和提供广泛的电脑软件服务为主。|[Microsoft – 官方网站](https://www.microsoft.com/zh-cn)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb40895a318.png)|
 |Microsoft Edge|-|是一个由微软研发的浏览器，于 2015 年 1 月 21 日公布，2015 年 3 月 30 日公开发布第一个预览版。该浏览器在 Windows 10 和 Windows 10 Mobile 中取代 IE 成为默认浏览器。|[Microsoft Edge Web Browser \| Official Site \| The Browser Designed for Windows 10](https://www.microsoft.com/en-us/windows/microsoft-edge#RvQm8ByqpIKMvqdh.97)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb3f9c4d9b0.png)|
+|Microsoft Intermediate Language|MSIL|微软中间语言|[通用中间语言 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E4%B8%AD%E9%97%B4%E8%AF%AD%E8%A8%80)|-|
 |Mount|-|挂载；安装|-|-|
 |Mozilla Firefox|Fx|中文俗称火狐（中国大陆官方有使用但未注册为商标），是一个自由及开源的网页浏览器，由 Mozilla 基金会及其子公司 Mozilla 公司开发。|[Firefox 火狐浏览器 — PC/Android/iOS 版 安全上网首选 — 官网 firefox.com.cn](http://www.firefox.com.cn/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb3ce201ccd.png)|
 |NetEase|-|网易；是一家中国大陆的互联网技术公司。|[网易](http://www.163.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb4f540df2b.png)|
@@ -38,7 +42,8 @@
 |Node Package Manager|npm|node 包管理器；是 Node.js 默认的、以 JavaScript 编写的软件包管理系统。|[npm](https://www.npmjs.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb38198f58c.png)|
 |Paste|-|粘贴|-|-|
 |Rainbow table|-|彩虹表；是一个用于加密散列函数逆运算的预先计算好的表，常用于破解加密过的密码散列。|-|-|
-|router|-|路由；在 web 开发中，「route」是指根据 url 分配到对应的处理程序。|[Web开发中的&quot;路由&quot;是什么意思？ - 知乎](https://www.zhihu.com/question/46767015)|-|
+|Reverse|-|反转；翻转；逆转|-|-|
+|Router|-|路由；在 web 开发中，「route」是指根据 url 分配到对应的处理程序。|[Web开发中的&quot;路由&quot;是什么意思？ - 知乎](https://www.zhihu.com/question/46767015)|-|
 |Scalable Vector Graphics|SVG|可缩放矢量图形；是一种基于可扩展标记语言（XML），用于描述二维矢量图形的图形格式。|-|![logo](https://ooo.0o0.ooo/2017/04/10/58eb443284eb2.png)|
 |Shift|-|换档键；上档键|-|![Shift](https://ooo.0o0.ooo/2017/04/17/58f469c87326f.jpg)|
 |Space|-|空格|-|-|
