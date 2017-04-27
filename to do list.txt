@@ -47,3 +47,6 @@ https://isux.tencent.com/
 https://www.qcloud.com/community/article/430630001490779316?fromSource=gwzcw.84430.84430.84430
 
 https://cn.vuejs.org/v2/guide/instance.html#实例生命周期
+
+ASP.NET MVC 音乐商店 - 5. 通过支架创建编辑表单
+http://www.cnblogs.com/haogj/archive/2011/11/15/2249143.html
