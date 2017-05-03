@@ -1112,4 +1112,5 @@ Vim一共有4个模式：
     综上所述，文件名全部使用小写字母和连词线（all-lowercase-with-dashes），是一种值得推广的正确做法。
 
 [来源-为什么文件名要小写？ - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html)
+
 ---
