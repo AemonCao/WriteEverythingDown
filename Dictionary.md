@@ -23,6 +23,7 @@
 |Enter|-|输入；回车键|-|-|
 |Escape|Esc|退出；退出键|-|-|
 |Facebook|FB|脸书；是一家位于美国加州圣马特奥县门洛帕克市的在线社交网络服务网站。|[Facebook](https://www.facebook.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb465c18087.png)|
+|First In First Out|FIFO|先进先出队列|-|-|
 |Function|fun|方法；函数；功能|-|-|
 |Google|-|谷歌；是一家美国的跨国科技企业，业务范围涵盖互联网搜索、云计算、广告技术等领域，开发并提供大量基于互联网的产品与服务。|[Google](https://www.google.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb360727c52.png)|
 |Google Chrome|-|是由 Google 开发的免费网页浏览器。|[Chrome（桌面版）](http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb3c02c1608.png)|
@@ -32,6 +33,7 @@
 |Interaction|-|互动；交互。|-|-|
 |Internet Explorer|IE|是微软所开发的图形用户界面网页浏览器。自从 1995 年开始，内置在各个新版本的 Windows 作业系统作为默认浏览器，也是微软 Windows 操作系統的一个组成部分。|[Internet Explorer 下载 - Windows Help](https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb3ee5349d7.png)|
 |Jenga Code|-|当你加上一小块代码之后，就整个垮掉的那种代码。</br>Jenga 是一种非常流行的 party 玩具，如图。它的工作原理是，先把那些小木条堆成一个规则的塔。然后，参加游戏的人轮流从下面抽出一块（只能用一只手）来放在最上面。谁放上之后木塔垮掉了，谁就“胜利”了。之后这个人就要做其他人想出来的一些“惩罚”，跟真心话大冒险那些事情差不多。|[几个超炫的专业词汇](http://www.yinwang.org/blog-cn/2013/04/14/terminology)|![jenga-code](https://ooo.0o0.ooo/2017/04/12/58edca1d3a1fc.jpg)|
+|Last In First Out|LIFO|后进先出法|[Stack的三种含义 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2013/11/stack.html)|![Last in first out](https://ooo.0o0.ooo/2017/05/03/59094c05ebad4.png)|
 |Microsoft|MS|微软；是美国一家跨国电脑科技公司，以研发、制造、授权和提供广泛的电脑软件服务为主。|[Microsoft – 官方网站](https://www.microsoft.com/zh-cn)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb40895a318.png)|
 |Microsoft Edge|-|是一个由微软研发的浏览器，于 2015 年 1 月 21 日公布，2015 年 3 月 30 日公开发布第一个预览版。该浏览器在 Windows 10 和 Windows 10 Mobile 中取代 IE 成为默认浏览器。|[Microsoft Edge Web Browser \| Official Site \| The Browser Designed for Windows 10](https://www.microsoft.com/en-us/windows/microsoft-edge#RvQm8ByqpIKMvqdh.97)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb3f9c4d9b0.png)|
 |Microsoft Intermediate Language|MSIL|微软中间语言|[通用中间语言 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E4%B8%AD%E9%97%B4%E8%AF%AD%E8%A8%80)|-|
