@@ -385,7 +385,7 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 |ab.         |Full Name                                       |中文意思|
 |:-----------|:-----------------------------------------------|:-----------------------|
 |AJAX        |Asynchronous Javascript And XML                 |异步 JavaScript 和 XML|
-|args        |Arguments                                       |/|
+|args        |Arguments                                       |-|
 |arr         |Array                                           |数组|
 |BASIC       |Beginners' All-purpose Symbolic Instruction Code|初学者通用符号指令代码（培基）|
 |char        |Character                                       |字符|
@@ -399,14 +399,14 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 |GNU         |GNU's Not Unix                                  |革奴计划|
 |HTML        |HyperText Markup Language                       |超级文本标记语言|
 |ID          |Identity                                        |身份标识方式|
-|JS          |JavaScript                                      |/|
+|JS          |JavaScript                                      |-|
 |JSON        |JavaScript Object Notation                      |JavaScript 对象标记|
 |IBM         |International Business Machines Corporation     |国际商业机器公司|
 |init        |Initialize                                      |初始化|
 |int         |Intager                                         |整数|
 |LINQ        |Language Integrated Query                       |语言集成查询|
 |MAX         |Maximum                                         |最大值|
-|md          |Markdown                                        |/|
+|md          |Markdown                                        |-|
 |MIN         |Minimum                                         |最小值|
 |MS          |Microsoft                                       |微软|
 |MSDN        |Microsoft Developer Network                     |微软开发者网络|
@@ -1112,5 +1112,17 @@ Vim一共有4个模式：
     综上所述，文件名全部使用小写字母和连词线（all-lowercase-with-dashes），是一种值得推广的正确做法。
 
 [来源-为什么文件名要小写？ - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html)
+
+---
+
+####  45)   18:11 2017/5/3 各个系统的换行符转义
+
+Windows 下的文本文件换行符：`\r\n`。
+
+Linux/Unix 下的文本文件换行符：`\r`。
+
+Mac 下的文本文件换行符：`\n`。
+
+[来源-Java写到.txt文件，如何实现换行 - liangoo7的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/liangoo7/article/details/7882773)
 
 ---

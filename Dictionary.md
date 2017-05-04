@@ -21,6 +21,7 @@
 |Dependency Injection|DI|依赖注入|-|-|
 |eBay|-|电子湾；亿贝；易贝；是管理可让全球民众上网买卖物品的线上拍卖及购物网站。|[Electronics, Cars, Fashion, Collectibles, Coupons and More \| eBay ](http://www.ebay.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb4e5468430.png)|
 |Enter|-|输入；回车键|-|-|
+|Format|-|格式化|-|-|
 |Escape|Esc|退出；退出键|-|-|
 |Facebook|FB|脸书；是一家位于美国加州圣马特奥县门洛帕克市的在线社交网络服务网站。|[Facebook](https://www.facebook.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb465c18087.png)|
 |First In First Out|FIFO|先进先出队列|-|-|
@@ -43,13 +44,17 @@
 |Node.js|-|是一个开放源代码、跨平台的、可用于服务器端和网络应用的运行环境。|1) [Node.js](https://nodejs.org/en/)</br>2) [Node.js中文网](http://nodejs.cn/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb38f3be7e3.png)|
 |Node Package Manager|npm|node 包管理器；是 Node.js 默认的、以 JavaScript 编写的软件包管理系统。|[npm](https://www.npmjs.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb38198f58c.png)|
 |Paste|-|粘贴|-|-|
-|Rainbow table|-|彩虹表；是一个用于加密散列函数逆运算的预先计算好的表，常用于破解加密过的密码散列。|-|-|
+|Peek|-|偷看；窥视；微露出；探出；在堆栈中指栈顶元素|-|-|
+|Pop|-|伸出；在堆栈中指出栈|-|-|
+|Push|-|推进；在堆栈中指入栈|-|-|
+|Rainbow Table|-|彩虹表；是一个用于加密散列函数逆运算的预先计算好的表，常用于破解加密过的密码散列。|-|![Rainbow Table](https://ooo.0o0.ooo/2017/05/03/59099168d3d4b.png)|
 |Reverse|-|反转；翻转；逆转|-|-|
 |Router|-|路由；在 web 开发中，「route」是指根据 url 分配到对应的处理程序。|[Web开发中的&quot;路由&quot;是什么意思？ - 知乎](https://www.zhihu.com/question/46767015)|-|
 |Scalable Vector Graphics|SVG|可缩放矢量图形；是一种基于可扩展标记语言（XML），用于描述二维矢量图形的图形格式。|-|![logo](https://ooo.0o0.ooo/2017/04/10/58eb443284eb2.png)|
 |Shift|-|换档键；上档键|-|![Shift](https://ooo.0o0.ooo/2017/04/17/58f469c87326f.jpg)|
 |Space|-|空格|-|-|
 |Swap|-|换；掉换；交换；替换|-|-|
+|Syntactic sugar|-|语法糖；语法糖衣；是由英国计算机科学家彼得·兰丁发明的一个术语，指计算机语言中添加的某种语法，这种语法对语言的功能并没有影响，但是更方便程序员使用。语法糖让程序更加简洁，有更高的可读性。|[语法糖 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E8%AF%AD%E6%B3%95%E7%B3%96)|-|
 |Tencent|-|腾讯；是一家民营IT的企业，总部位于中国广东深圳，于 2004 年 6 月 16 日在香港交易所上市。|[Tencent 腾讯](https://www.tencent.com/zh-cn/index.html)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb4c217dc73.png)|
 |Tracked|-|追踪；跟踪；跟踪状态|-|-|
 |Twitter|-|推特；是一个社交网络和一个微博客服务，它可以让用户更新不超过140个字符的消息，这些消息也被称作「推文（Tweet）」。|[Twitter](https://twitter.com/)|![logo](https://ooo.0o0.ooo/2017/04/10/58eb50b50fe33.png)|
