@@ -1148,3 +1148,7 @@ Wikipedia 上的解释是，这只是一段用来测试排版效果的占位文�
 >"无人爱苦，亦无人寻之欲之，乃因其苦......"
 
 [来源-关于Lorem ipsum - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2009/04/lorem_ipsum.html)
+
+[相关-Lorem Ipsum - All the facts - Lipsum generator](http://www.lipsum.com/)
+
+---
