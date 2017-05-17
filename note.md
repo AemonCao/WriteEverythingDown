@@ -1126,3 +1126,25 @@ Mac 下的文本文件换行符：`\n`。
 [来源-Java写到.txt文件，如何实现换行 - liangoo7的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/liangoo7/article/details/7882773)
 
 ---
+
+####  46)   17:26 2017/5/17 Lorem ipsum
+
+>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Wikipedia 上的解释是，这只是一段用来测试排版效果的占位文字，没有实际的含义。
+
+据说，16世纪的时候就有人开始用了。
+
+当时的某个印刷工人，从古罗马政治家西塞罗的文章中，选了一段拉丁文，
+
+>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit "
+
+进行了混排，就把它创造出来了。这句拉丁文的英译是
+
+>"Neither is there anyone who loves grief itself since it is grief and thus wants to obtain it"
+
+译成中文就是
+
+>"无人爱苦，亦无人寻之欲之，乃因其苦......"
+
+[来源-关于Lorem ipsum - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2009/04/lorem_ipsum.html)
