@@ -391,6 +391,7 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 |char        |Character                                       |字符|
 |CSS         |Cascading Style Sheets                          |层叠样式表|
 |db          |Database                                        |数据库|
+|DIV         |Division                                        |划分|
 |DOM         |Document Object Model                           |文档对象模型|
 |DTD         |Document Type Definition                        |文档类型定义|
 |enum        |Enumerate                                       |枚举|
@@ -430,7 +431,6 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 |XML         |Extensible Markup Language                      |可扩展标记语言|
 |……          |……                                              |……|
 |TBC         |To Be Continued                                 |待续|
-
 ---
 
 ####  22)       15:30 2017/3/21
@@ -557,7 +557,7 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
 ---
 
-####  29)       11:27 2017/3/31
+####  29)       11:27 2017/3/31 小马
 
 >但是小马，你怎么能听松鼠的话呢？只有用你自己的脚试试才知道这条河有多深！
 
