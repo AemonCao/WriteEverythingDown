@@ -50,3 +50,7 @@ https://cn.vuejs.org/v2/guide/instance.html#实例生命周期
 
 ASP.NET MVC 音乐商店 - 5. 通过支架创建编辑表单
 http://www.cnblogs.com/haogj/archive/2011/11/15/2249143.html
+
+http://v.qq.com/live/p/topic/29384/review.html
+2017 Google I/O大会
+http://live.163.com/room/131236.html
