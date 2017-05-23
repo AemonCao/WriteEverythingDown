@@ -1152,3 +1152,16 @@ Wikipedia 上的解释是，这只是一段用来测试排版效果的占位文�
 [相关-Lorem Ipsum - All the facts - Lipsum generator](http://www.lipsum.com/)
 
 ---
+
+####  47)   10:39 2017/5/23 使图片变黑白的 CSS。
+
+    .grayscale{
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray;
+    }
+
+---
