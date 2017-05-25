@@ -295,7 +295,7 @@ JS的 `map()`,`filter()`,`reduce()` 方法
         console.log(3.1415926);
 
     output:
-    
+
         3.1415926
 
 5.  输出变量
@@ -345,7 +345,7 @@ JS的 `map()`,`filter()`,`reduce()` 方法
         obj.name = "obj";
         obj.age = 19;
         console.log("整数i:%d\n小数f:%f\n字符串str:%s\n数组arr:%o\n对象obj:%o\n",i,f,str,arr,obj);
-    
+
     output:
 
         整数i:1
@@ -382,55 +382,56 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
 （按缩写的首字母升序排列）
 
-|ab.         |Full Name                                       |中文意思|
-|:-----------|:-----------------------------------------------|:-----------------------|
-|AJAX        |Asynchronous Javascript And XML                 |异步 JavaScript 和 XML|
-|args        |Arguments                                       |-|
-|arr         |Array                                           |数组|
-|BASIC       |Beginners' All-purpose Symbolic Instruction Code|初学者通用符号指令代码（培基）|
-|char        |Character                                       |字符|
-|CSS         |Cascading Style Sheets                          |层叠样式表|
-|db          |Database                                        |数据库|
-|DIV         |Division                                        |划分|
-|DOM         |Document Object Model                           |文档对象模型|
-|DTD         |Document Type Definition                        |文档类型定义|
-|enum        |Enumerate                                       |枚举|
-|err         |Error(s)                                        |错误|
-|FCL         |Framework Class Library                         |框架类库|
-|GNU         |GNU's Not Unix                                  |革奴计划|
-|HTML        |HyperText Markup Language                       |超级文本标记语言|
-|ID          |Identity                                        |身份标识方式|
-|JS          |JavaScript                                      |-|
-|JSON        |JavaScript Object Notation                      |JavaScript 对象标记|
-|IBM         |International Business Machines Corporation     |国际商业机器公司|
-|init        |Initialize                                      |初始化|
-|int         |Intager                                         |整数|
-|LINQ        |Language Integrated Query                       |语言集成查询|
-|MAX         |Maximum                                         |最大值|
-|md          |Markdown                                        |-|
-|MIN         |Minimum                                         |最小值|
-|MS          |Microsoft                                       |微软|
-|MSDN        |Microsoft Developer Network                     |微软开发者网络|
-|MVC         |Model View Controller                           |视图、模型、控制器|
-|N/A(NA)     |Not Applicable                                  |不可用|
-|num         |Number Of                                       |数量|
-|OO          |Object Oriented                                 |面向对象|
-|OOP         |Object Oriented Programming                     |面向对象编程|
-|OS          |Operating System                                |操作系统|
-|PHP         |Hypertext Preprocessor                          |超文本预处理器|
-|pwd(1)      |PassWord                                        |密码、口令|
-|pwd(2)      |Print Working Directory                         |打印当前工作目录（Unix 命令）|
-|ref         |Reference                                       |参考|
-|Rime        |Rime Input Method Engine                        |中州韵输入法引擎|
-|SGML        |Standard Generalized Markup language            |标准通用置标语言|
-|src         |Source                                          |源文件|
-|str         |String                                          |字符串|
-|var         |Variable                                        |变量|
-|W3C         |World Wide Web Consortium                       |万维网联盟|
-|WYSIWYG     |What You See Is What You Get                    |所见即所得|
-|XML         |Extensible Markup Language                      |可扩展标记语言|
-|……          |……                                              |……|
-|TBC         |To Be Continued                                 |待续|
+ab.     | Full Name                                        | 中文意思
+--------|--------------------------------------------------|------------------------------
+AJAX    | Asynchronous Javascript And XML                  | 异步 JavaScript 和 XML
+args    | Arguments                                        | -
+arr     | Array                                            | 数组
+BASIC   | Beginners' All-purpose Symbolic Instruction Code | 初学者通用符号指令代码（培基）
+char    | Character                                        | 字符
+CSS     | Cascading Style Sheets                           | 层叠样式表
+db      | Database                                         | 数据库
+DIV     | Division                                         | 划分
+DOM     | Document Object Model                            | 文档对象模型
+DTD     | Document Type Definition                         | 文档类型定义
+enum    | Enumerate                                        | 枚举
+err     | Error(s)                                         | 错误
+FCL     | Framework Class Library                          | 框架类库
+GNU     | GNU's Not Unix                                   | 革奴计划
+HTML    | HyperText Markup Language                        | 超级文本标记语言
+ID      | Identity                                         | 身份标识方式
+JS      | JavaScript                                       | -
+JSON    | JavaScript Object Notation                       | JavaScript 对象标记
+IBM     | International Business Machines Corporation      | 国际商业机器公司
+init    | Initialize                                       | 初始化
+int     | Intager                                          | 整数
+LINQ    | Language Integrated Query                        | 语言集成查询
+MAX     | Maximum                                          | 最大值
+md      | Markdown                                         | -
+MIN     | Minimum                                          | 最小值
+MS      | Microsoft                                        | 微软
+MSDN    | Microsoft Developer Network                      | 微软开发者网络
+MVC     | Model View Controller                            | 视图、模型、控制器
+N/A(NA) | Not Applicable                                   | 不可用
+num     | Number Of                                        | 数量
+OO      | Object Oriented                                  | 面向对象
+OOP     | Object Oriented Programming                      | 面向对象编程
+OS      | Operating System                                 | 操作系统
+PHP     | Hypertext Preprocessor                           | 超文本预处理器
+pwd(1)  | PassWord                                         | 密码、口令
+pwd(2)  | Print Working Directory                          | 打印当前工作目录（Unix 命令）
+ref     | Reference                                        | 参考
+Rime    | Rime Input Method Engine                         | 中州韵输入法引擎
+SGML    | Standard Generalized Markup language             | 标准通用置标语言
+src     | Source                                           | 源文件
+str     | String                                           | 字符串
+var     | Variable                                         | 变量
+W3C     | World Wide Web Consortium                        | 万维网联盟
+WYSIWYG | What You See Is What You Get                     | 所见即所得
+XML     | Extensible Markup Language                       | 可扩展标记语言
+……      | ……                                               | ……
+TBC     | To Be Continued                                  | 待续
+
 ---
 
 ####  22)       15:30 2017/3/21
@@ -535,23 +536,23 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
 请记住：在 C# 中不允许使用未初始化的变量。
 
-|值类型|默认值|
-|-|-|
-|bool   |false|
-|byte   |0|
-|char   |'\0'|
-|decimal|0.0M|
-|double |0.0D|
-|enum   |表达式 (E)0 产生的值，其中 E 为 enum 标识符。|
-|float  |0.0F|
-|int    |0|
-|long   |0L|
-|sbyte  |0|
-|short  |0|
-|struct |将所有的值类型字段设置为默认值并将所有的引用类型字段设置为 null 时产生的值。|
-|uint   |0|
-|ulong  |0|
-|ushort |0|
+值类型  | 默认值
+--------|-----------------------------------------------------------------------------
+bool    | false
+byte    | 0
+char    | '\0'
+decimal | 0.0M
+double  | 0.0D
+enum    | 表达式 (E)0 产生的值，其中 E 为 enum 标识符。
+float   | 0.0F
+int     | 0
+long    | 0L
+sbyte   | 0
+short   | 0
+struct  | 将所有的值类型字段设置为默认值并将所有的引用类型字段设置为 null 时产生的值。
+uint    | 0
+ulong   | 0
+ushort  | 0
 
 [来源-默认值表（C# 参考）](https://msdn.microsoft.com/zh-cn/library/83fhsxwc.aspx)
 
@@ -575,7 +576,7 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
 当
 
-    if (BoilEvent != null) 
+    if (BoilEvent != null)
         BoilEvent(temperatuerl);
 
 时，可以用
@@ -588,15 +589,15 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
 ####  32)       18:10 2017/3/31 Visual Studio 滚动条上的颜色所表示的意思
 
-|颜色|意思|
-|-|-|
-|白色横线|光标位置|
-|亮绿色|已经保存的内容|
-|黄色|修改了没保存的内容|
-|亮红色|语法错误|
-|暗红色|断点|
-|淡绿色|警告|
-|褐色|ctrl+f 的项|
+颜色     | 意思
+---------|--------------------
+白色横线 | 光标位置
+亮绿色   | 已经保存的内容
+黄色     | 修改了没保存的内容
+亮红色   | 语法错误
+暗红色   | 断点
+淡绿色   | 警告
+褐色     | ctrl+f 的项
 
 ---
 
@@ -676,30 +677,30 @@ JavaScript：
 
 ####  38)       10:32 2017/4/14 泛型——类型参数的约束
 
-|Constraint                     |Description|
-|:------------------------------|:----------|
-|`where T: struct`              |类型参数必须是值类型。可以指定除 `Nullable` 以外的任何值类型。有关更多信息，请参见使用可以为 `null` 的类型。|
-|`where T : class`              |类型参数必须是引用类型；这一点也适用于任何类、接口、委托或数组类型。|
-|`where T : new()`              |类型参数必须具有无参数的公共构造函数。当与其他约束一起使用时，`new()` 约束必须最后指定。|
-|`where T : <base class name>`  |类型参数必须是指定的基类或派生自指定的基类|
-|`where T : <interface name>`   |类型参数必须是指定的接口或实现指定的接口。可以指定多个接口约束。约束接口也可以是泛型的。|
-|`where T : U`                  |为 `T` 提供的类型参数必须是为 `U` 提供的参数或派生自为 `U` 提供的参数。|
+Constraint                    | Description
+------------------------------|----------------------------------------------------------------------------------------------------------
+`where T: struct`             | 类型参数必须是值类型。可以指定除 `Nullable` 以外的任何值类型。有关更多信息，请参见使用可以为 `null` 的类型。
+`where T : class`             | 类型参数必须是引用类型；这一点也适用于任何类、接口、委托或数组类型。
+`where T : new()`             | 类型参数必须具有无参数的公共构造函数。当与其他约束一起使用时，`new()` 约束必须最后指定。
+`where T : <base class name>` | 类型参数必须是指定的基类或派生自指定的基类
+`where T : <interface name>`  | 类型参数必须是指定的接口或实现指定的接口。可以指定多个接口约束。约束接口也可以是泛型的。
+`where T : U`                 | 为 `T` 提供的类型参数必须是为 `U` 提供的参数或派生自为 `U` 提供的参数。
 
 ---
 
 ####  39）       12:47 2017/4/14 bool类型的与（&）或（|）运算
 
-|x      |y      |x&y    |x\|y   |
-|:------|:------|:------|:------|
-|`true` |`true` |`true` |`true` |
-|`true` |`false`|`false`|`true` |
-|`true` |`null` |`null` |`null` |
-|`false`|`true` |`false`|`true` |
-|`false`|`false`|`false`|`false`|
-|`false`|`null` |`false`|`null` |
-|`null` |`true` |`null` |`true` |
-|`null` |`false`|`false`|`null` |
-|`null` |`null` |`null` |`null` |
+x       | y       | x&y     | x\|y
+--------|---------|---------|---------
+`true`  | `true`  | `true`  | `true`
+`true`  | `false` | `false` | `true`
+`true`  | `null`  | `null`  | `null`
+`false` | `true`  | `false` | `true`
+`false` | `false` | `false` | `false`
+`false` | `null`  | `false` | `null`
+`null`  | `true`  | `null`  | `true`
+`null`  | `false` | `false` | `null`
+`null`  | `null`  | `null`  | `null`
 
 ---
 
@@ -707,7 +708,7 @@ JavaScript：
 
 Vim一共有4个模式：
 
-*   正常模式 (Normal-mode) 
+*   正常模式 (Normal-mode)
 *   插入模式 (Insert-mode)
 *   命令模式 (Command-mode)
 *   可视模式 (Visual-mode)
@@ -739,7 +740,7 @@ Vim一共有4个模式：
 
     在正常模式按下 `v`, `V`, `Ctrl+v`，可以进入可视模式。可视模式中的
     操作有点像拿鼠标进行操作，选择文本的时候有一种鼠标选择的即视感，有时候
-    会很方便。  
+    会很方便。
 
 不论在其他什么模式下，按一次或两次 `Esc` 键都可以回到正常模式。
 
@@ -786,11 +787,11 @@ Vim一共有4个模式：
 
     `calc()` 从字面我们可以把他理解为一个函数function。
 
-    其实 calc 是英文单词 calculate (计算)的缩写，是 CSS3 的一个新增的功能，用来指定元素的长度。 
+    其实 calc 是英文单词 calculate (计算)的缩写，是 CSS3 的一个新增的功能，用来指定元素的长度。
 
-    比如说，你可以使用 `calc()` 给元素的 `border`、`margin`、`pading`、`font-size` 和 `width` 等属性设置动态值。 
+    比如说，你可以使用 `calc()` 给元素的 `border`、`margin`、`pading`、`font-size` 和 `width` 等属性设置动态值。
 
-    为何说是动态值呢？因为我们使用的表达式来得到的值。 
+    为何说是动态值呢？因为我们使用的表达式来得到的值。
 
     不过 `calc()` 最大的好处就是用在流体布局上，可以通过 `calc()` 计算得到元素的宽度。
 
@@ -806,7 +807,7 @@ Vim一共有4个模式：
     *   可以使用百分比、px、em、rem等单位；
     *   可以混合使用各种单位进行计算；
     *   表达式中有“+”和“-”时，其前后必须要有空格，如“`widht: calc(12%+5em)`”这种没有空格的写法是错误的；
-    *   表达式中有“*”和“/”时，其前后可以没有空格，但建议留有空格。  
+    *   表达式中有“*”和“/”时，其前后可以没有空格，但建议留有空格。
 
 3.  大白
 
