@@ -119,20 +119,24 @@
 
 显示节点的层次结构。（块状，颜色）
 
-    * {background-color: rgba(255, 0, 0, .2);}
-    * * {background-color: rgba(0, 255, 0, .2);}
-    * * * {background-color: rgba(0, 0, 255, .2);}
-    * * * * {background-color: rgba(255, 0, 255, .2);}
-    * * * * * {background-color: rgba(0, 255, 255, .2);}
-    * * * * * * {background-color: rgba(255, 255, 0, .2);}
+```css
+* {background-color: rgba(255, 0, 0, .2);}
+* * {background-color: rgba(0, 255, 0, .2);}
+* * * {background-color: rgba(0, 0, 255, .2);}
+* * * * {background-color: rgba(255, 0, 255, .2);}
+* * * * * {background-color: rgba(0, 255, 255, .2);}
+* * * * * * {background-color: rgba(255, 255, 0, .2);}
+```
 
 [代码来源-Quora](https://www.quora.com/What-are-the-most-interesting-HTML-JS-DOM-CSS-hacks-that-most-web-developers-dont-know-about/answer/Gajus-Kuizinas)
 
 显示节点的层次结构。（外部框）
 
-    [].forEach.call($$("*"), function(a) {
-        a.style.outline = "1px solid #" + (~~(Math.random() * (1 << 24))).toString(16)
-    })
+```javascript
+[].forEach.call($$("*"), function(a) {
+    a.style.outline = "1px solid #" + (~~(Math.random() * (1 << 24))).toString(16)
+})
+```
 
 [代码来源-知乎](https://www.zhihu.com/question/27432017/answer/40621923)
 
@@ -184,73 +188,79 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
 冒泡排序
 
-    //冒泡排序
-    function bubble_sort(arr) {
-        var times = 0;
-        var temp;
-        console.time("冒泡排序");
-        for (var i = 0; i < arr.length; i++) {
-            for (var j = 0; j < arr.length - 1 - i; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                    times++;
-                }
+```javascript
+//冒泡排序
+function bubble_sort(arr) {
+    var times = 0;
+    var temp;
+    console.time("冒泡排序");
+    for (var i = 0; i < arr.length; i++) {
+        for (var j = 0; j < arr.length - 1 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                times++;
             }
         }
-        console.timeEnd("冒泡排序");
-        console.log(times);
-        return arr;
     }
+    console.timeEnd("冒泡排序");
+    console.log(times);
+    return arr;
+}
+```
 
 ![冒泡排序](https://ooo.0o0.ooo/2017/03/07/58be52a13cb2b.gif)
 
 选择排序
 
-    //选择排序
-    function selection_sort(arr) {
-        var times = 0;
-        var minindex, temp
-        console.time("选择排序");
-        for (var i = 0; i < arr.length - 1; i++) {
-            minindex = i;
-            for (var j = i; j < arr.length; j++) {
-                if (arr[j] < arr[minindex])
-                    minindex = j;
-                times++;
-            }
-            temp = arr[i];
-            arr[i] = arr[minindex];
-            arr[minindex] = temp;
+```javascript
+//选择排序
+function selection_sort(arr) {
+    var times = 0;
+    var minindex, temp
+    console.time("选择排序");
+    for (var i = 0; i < arr.length - 1; i++) {
+        minindex = i;
+        for (var j = i; j < arr.length; j++) {
+            if (arr[j] < arr[minindex])
+                minindex = j;
+            times++;
         }
-        console.timeEnd("选择排序");
-        console.log(times);
-        return arr;
+        temp = arr[i];
+        arr[i] = arr[minindex];
+        arr[minindex] = temp;
     }
+    console.timeEnd("选择排序");
+    console.log(times);
+    return arr;
+}
+```
 
 ![选择排序](https://ooo.0o0.ooo/2017/03/07/58be53278ee42.gif)
 
 插入排序
 
-    //插入排序
-    function insertion_sort(arr) {
-        var times = 0;
-        console.time("插入排序");
-        for (var i = 1; i < arr.length; i++) {
-            var key = arr[i];
-            var j = i - 1;
-            while (j >= 0 && arr[j] > key) {
-                arr[j + 1] = arr[j];
-                j--;
-                times++;
-            }
-            arr[j + 1] = key;
+```javascript
+//插入排序
+function insertion_sort(arr) {
+    var times = 0;
+    console.time("插入排序");
+    for (var i = 1; i < arr.length; i++) {
+        var key = arr[i];
+        var j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+            times++;
         }
-        console.timeEnd("插入排序");
-        console.log(times);
-        return arr;
+        arr[j + 1] = key;
     }
+    console.timeEnd("插入排序");
+    console.log(times);
+    return arr;
+}
+```
 
 ![插入排序](https://ooo.0o0.ooo/2017/03/07/58be539594903.gif)
 
@@ -262,7 +272,9 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        console.log('%');
+    ```javascript
+    console.log('%');
+    ```
 
     output:
 
@@ -272,8 +284,9 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        console.log("字符串abc123!@#");
-
+    ```javascript
+    console.log("字符串abc123!@#");
+    ```
     output:
 
         字符串abc123!@#
@@ -282,7 +295,9 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        console.log(1);
+    ```javascript
+    console.log(1);
+    ```
 
     output:
 
@@ -292,7 +307,9 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        console.log(3.1415926);
+    ```javascript
+    console.log(3.1415926);
+    ```
 
     output:
 
@@ -302,8 +319,10 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        var a = 1;
-        console.log(a);
+    ```javascript
+    var a = 1;
+    console.log(a);
+    ```
 
     output:
 
@@ -313,8 +332,10 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        var arr=[0,1,2,3,4,5];
-        console.log(arr);
+    ```javascript
+    var arr=[0,1,2,3,4,5];
+    console.log(arr);
+    ```
 
     output:
 
@@ -324,10 +345,12 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        var _object = {};
-        _object.name = "obj";
-        _object.age = 19;
-        console.log(_object);
+    ```javascript
+    var _object = {};
+    _object.name = "obj";
+    _object.age = 19;
+    console.log(_object);
+    ```
 
     output:
 
@@ -337,14 +360,16 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 
     input:
 
-        var i = 1;
-        var f = 3.1415926
-        var str = "abc123!@#"
-        var arr = [0,1,2,3,4,5];
-        var obj = {};
-        obj.name = "obj";
-        obj.age = 19;
-        console.log("整数i:%d\n小数f:%f\n字符串str:%s\n数组arr:%o\n对象obj:%o\n",i,f,str,arr,obj);
+    ```javascript
+    var i = 1;
+    var f = 3.1415926
+    var str = "abc123!@#"
+    var arr = [0,1,2,3,4,5];
+    var obj = {};
+    obj.name = "obj";
+    obj.age = 19;
+    console.log("整数i:%d\n小数f:%f\n字符串str:%s\n数组arr:%o\n对象obj:%o\n",i,f,str,arr,obj);
+    ```
 
     output:
 
@@ -461,28 +486,32 @@ TBC     | To Be Continued                                  | 待续
 
 最好不用使用 `get` 访问器更改对象的状态。例如，以下访问器在每次访问 number 字段时都会产生更改对象状态的副作用。
 
-    private int number;
-    public int Number
+```csharp
+private int number;
+public int Number
+{
+    get
     {
-        get
-        {
-            return number++;   // Don't do this
-        }
+        return number++;   // Don't do this
     }
+}
+```
 
 但是可以用于放回字段值，或用于计算并返回字段值。例如：
 
-    class Employee
+```csharp
+class Employee
+{
+    private string name;
+    public string Name
     {
-        private string name;
-        public string Name
+        get
         {
-            get
-            {
-                return name != null ? name : "NA";
-            }
+            return name != null ? name : "NA";
         }
     }
+}
+```
 
 在上一个代码段中，如果不对 Name 属性赋值，它将返回值 NA。
 
@@ -503,22 +532,28 @@ TBC     | To Be Continued                                  | 待续
 
 1.  `ref` 传进去的参数必须在调用前初始化，`out` 不必，即：
 
-        int i;
-        SomeMethod(ref i);  //语法错误
-        SomeMethod(out i);  //通过
+    ```csharp
+    int i;
+    SomeMethod(ref i);  //语法错误
+    SomeMethod(out i);  //通过
+    ```
 
 2.  `ref` 传进去的参数在函数内部可以直接使用，而 `out` 不可，即：
 
-        public void SomeMethod(ref int i)
-        {
-            int j=i;    //通过
-            //...
-        }
+    ```csharp
+    public void SomeMethod(ref int i)
+    {
+        int j=i;    //通过
+        //...
+    }
+    ```
 
-        public void SomeMethod(out int i)
-        {
-            int j=i;    //语法错误
-        }
+    ```csharp
+    public void SomeMethod(out int i)
+    {
+        int j=i;    //语法错误
+    }
+    ```
 
 3.  `ref` 传进去的参数在函数内部可以不被修改，但 `out` 必须在离开函数体前进行赋值。
 
@@ -528,11 +563,15 @@ TBC     | To Be Continued                                  | 待续
 
 下表显示了由默认构造函数返回的值类型的默认值。 默认构造函数是通过 `new` 运算符来调用的，如下所示：
 
-    int myInt = new int();
+```csharp
+int myInt = new int();
+```
 
 以上语句同下列语句效果相同：
 
-    int myInt = 0;
+```csharp
+int myInt = 0;
+```
 
 请记住：在 C# 中不允许使用未初始化的变量。
 
@@ -576,12 +615,16 @@ ushort  | 0
 
 当
 
-    if (BoilEvent != null)
-        BoilEvent(temperatuerl);
+```csharp
+if (BoilEvent != null)
+    BoilEvent(temperatuerl);
+```
 
 时，可以用
 
-    BoilEvent?.Invoke(temperatuerl);
+```csharp
+BoilEvent?.Invoke(temperatuerl);
+```
 
 来简化委托调用。
 
@@ -619,13 +662,15 @@ ushort  | 0
 
 ####  34)       16:12 2017/4/7 交换两个变量的值，不使用第三个变量
 
-    int a, b;
-    a = 10;
-    b = 12;
+```csharp
+int a, b;
+a = 10;
+b = 12;
 
-    a = b - a; // a = 2; b = 12
-    b = b - a; // a = 2; b = 10
-    a = b + a; // a = 12; b = 10
+a = b - a; // a = 2; b = 12
+b = b - a; // a = 2; b = 10
+a = b + a; // a = 12; b = 10
+```
 
 ---
 
@@ -633,15 +678,17 @@ ushort  | 0
 
 JavaScript：
 
-    var ________ = 0.023809523809523808, ____ = 1, ___ = 0, __ = 0, _ = 1;
-           __ -           ___
-         /_  |0        //     \\
-        /_/   0     //          \\
-       /_/_  |0                //
-      /_/_   |0              //
-     /_/____ |_           //
-    /________|0        //
-             |0     //______________
+```javascript
+var ________ = 0.023809523809523808, ____ = 1, ___ = 0, __ = 0, _ = 1;
+        __ -           ___
+        /_  |0        //     \\
+    /_/   0     //          \\
+    /_/_  |0                //
+    /_/_   |0              //
+    /_/____ |_           //
+/________|0        //
+            |0     //______________
+```
 
 ---
 
@@ -649,11 +696,15 @@ JavaScript：
 
 在 C/C++ 里面使用这样的表达式顺序：
 
-    if ("blue" == theSky)
+```c
+if ("blue" == theSky)
+```
 
 这是为了避免意外的写成：
 
-    if (theSky = "blue")
+```c
+if (theSky = "blue")
+```
 
 “Yoda 表示法”的名字来源于《星球大战》的 Yoda 大师。他说话的单词顺序相当奇特，比如：“Backwards it is, yes!”
 
@@ -770,19 +821,20 @@ Vim一共有4个模式：
 
     ![contenteditable](https://ooo.0o0.ooo/2017/04/19/58f6d17a5fbaa.gif)
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <title>MR_LP</title>
-        </head>
-        <body>
-            <style style="display:block" contentEditable>
-                body { color: blue }
-            </style>
-        </body>
-        </html>
-
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MR_LP</title>
+    </head>
+    <body>
+        <style style="display:block" contentEditable>
+            body { color: blue }
+        </style>
+    </body>
+    </html>
+    ```
 2.  calc()
 
     `calc()` 从字面我们可以把他理解为一个函数function。
@@ -795,9 +847,11 @@ Vim一共有4个模式：
 
     不过 `calc()` 最大的好处就是用在流体布局上，可以通过 `calc()` 计算得到元素的宽度。
 
-        .box{
-            width: calc(100% - (10px + 5px) * 2);
-        }
+    ```css
+    .box{
+        width: calc(100% - (10px + 5px) * 2);
+    }
+    ```
 
     `calc()` 语法非常简单，就像我们小时候学加（+）、减（-）、乘（*）、除（/）一样，使用数学表达式来表示。
 
@@ -811,216 +865,218 @@ Vim一共有4个模式：
 
 3.  大白
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Baymax</title>
-        <link rel=stylesheet href="demo2.css"/>
-    </head>
-    <style>
-        /*body {
-            background: #595959;
-        }*/
-        #baymax{
-         /*设置为 居中*/
-            margin: 0 auto;
-            /*高度*/
-            height: 600px;
-            /*隐藏溢出*/
-            overflow: hidden;
-        }
-        #head{
-            height: 64px;
-            width: 100px;
-            /*以百分比定义圆角的形状*/
-            border-radius: 50%;
-            /*背景*/
-            background: #fff;
-            margin: 0 auto;
-            margin-bottom: -20px;
-            /*设置下边框的样式*/
-            border-bottom: 5px solid #e0e0e0;
-            /*属性设置元素的堆叠顺序；    拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面*/
-            z-index: 100;
-            /*生成相对定位的元素*/
-            position: relative;
-        }
-        #eye,
-        #eye2{
-            width: 11px;
-            height: 13px;
-            background: #282828;
-            border-radius: 50%;
-            position: relative;
-            top: 30px;
-            left: 27px;
-            /*旋转该元素*/
-            transform: rotate(8deg);
-        }
-        #eye2{
-            /*使其旋转对称*/
-            transform: rotate(-8deg);
-            left: 69px;    top: 17px;
-        }
-        #mouth{
-            width: 38px;
-            height: 1.5px;
-            background: #282828;
-            position: relative;
-            left: 34px;
-            top: 10px;
-        }
-        /*躯干和腹部*/
-        #torso,
-        #belly{
-            margin: 0 auto;
-            height: 200px;
-            width: 180px;
-            background: #fff;
-            border-radius: 47%;
-            /*设置边框*/
-            border: 5px solid #e0e0e0;
-            border-top: none;
-            z-index: 1;
-        }
-        #belly{
-            height: 300px;
-            width: 245px;
-            margin-top: -140px;
-            z-index: 5;
-        }
-        #cover{
-            width: 190px;
-            background: #fff;
-            height: 150px;
-            margin: 0 auto;
-            position: relative;
-            top: -20px;
-            border-radius: 50%;
-        }
-        /*心脏*/
-        #heart{
-          width:25px;
-          height:25px;
-          border-radius:50%;
-          position:relative;
-          /*向边框四周添加阴影效果*/
-          box-shadow:2px 5px 2px #ccc inset;
-          right:-115px;
-          top:40px;
-          z-index:111;
-          border:1px solid #ccc;
-        }
-        /*手臂*/
-        #left-arm,
-        #right-arm{
-            height: 270px;
-            width: 120px;
-            border-radius: 50%;
-            background: #fff;
-            margin: 0 auto;
-            position: relative;
-            top: -350px;
-            left: -100px;
-            transform: rotate(20deg);
-            z-index: -1;
-        }
-        #right-arm{
-            transform: rotate(-20deg);
-            left: 100px;
-            top: -620px;
-        }
-        /*手指头*/
-        #l-bigfinger,
-        #r-bigfinger{
-            height: 50px;
-            width: 20px;
-            border-radius: 50%;
-            background: #fff;
-            position: relative;
-            top: 250px;
-            left: 50px;
-            transform: rotate(-50deg);
-        }
-        #r-bigfinger{
-            left: 50px;
-            transform: rotate(50deg);
-        }
-        #l-smallfinger,
-        #r-smallfinger{
-            height: 35px;
-            width: 15px;
-            border-radius: 50%;
-            background: #fff;
-            position: relative;
-            top: 195px;
-            left: 66px;
-            transform: rotate(-40deg);
-        }
-        #r-smallfinger{
-            background: #fff;
-            transform: rotate(40deg);
-            top: 195px;
-            left: 37px;
-        }
-        /*大腿*/
-        #left-leg,
-        #right-leg{
-            height: 170px;
-            width: 90px;
-            border-radius: 40% 30% 10px 45%;
-            background: #fff;
-            position: relative;
-            top: -640px;
-            left: -45px;
-            transform: rotate(-1deg);
-            z-index: -2;
-            margin: 0 auto;
-        }
-        #right-leg{
-            background: #fff;
-            border-radius:30% 40% 45% 10px;
-            margin: 0 auto;
-            top: -810px;
-            left: 50px;
-            transform: rotate(1deg);
-        }
-    </style>
-<body>
-     <div id="baymax">
-        <!-- 定义头部，包括两个眼睛、嘴 -->
-        <div id="head">
-            <div id="eye"></div>
-            <div id="eye2"></div>
-            <div id="mouth"></div>
+    ```html
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Baymax</title>
+            <link rel=stylesheet href="demo2.css"/>
+        </head>
+        <style>
+            /*body {
+                background: #595959;
+            }*/
+            #baymax{
+            /*设置为 居中*/
+                margin: 0 auto;
+                /*高度*/
+                height: 600px;
+                /*隐藏溢出*/
+                overflow: hidden;
+            }
+            #head{
+                height: 64px;
+                width: 100px;
+                /*以百分比定义圆角的形状*/
+                border-radius: 50%;
+                /*背景*/
+                background: #fff;
+                margin: 0 auto;
+                margin-bottom: -20px;
+                /*设置下边框的样式*/
+                border-bottom: 5px solid #e0e0e0;
+                /*属性设置元素的堆叠顺序；    拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面*/
+                z-index: 100;
+                /*生成相对定位的元素*/
+                position: relative;
+            }
+            #eye,
+            #eye2{
+                width: 11px;
+                height: 13px;
+                background: #282828;
+                border-radius: 50%;
+                position: relative;
+                top: 30px;
+                left: 27px;
+                /*旋转该元素*/
+                transform: rotate(8deg);
+            }
+            #eye2{
+                /*使其旋转对称*/
+                transform: rotate(-8deg);
+                left: 69px;    top: 17px;
+            }
+            #mouth{
+                width: 38px;
+                height: 1.5px;
+                background: #282828;
+                position: relative;
+                left: 34px;
+                top: 10px;
+            }
+            /*躯干和腹部*/
+            #torso,
+            #belly{
+                margin: 0 auto;
+                height: 200px;
+                width: 180px;
+                background: #fff;
+                border-radius: 47%;
+                /*设置边框*/
+                border: 5px solid #e0e0e0;
+                border-top: none;
+                z-index: 1;
+            }
+            #belly{
+                height: 300px;
+                width: 245px;
+                margin-top: -140px;
+                z-index: 5;
+            }
+            #cover{
+                width: 190px;
+                background: #fff;
+                height: 150px;
+                margin: 0 auto;
+                position: relative;
+                top: -20px;
+                border-radius: 50%;
+            }
+            /*心脏*/
+            #heart{
+            width:25px;
+            height:25px;
+            border-radius:50%;
+            position:relative;
+            /*向边框四周添加阴影效果*/
+            box-shadow:2px 5px 2px #ccc inset;
+            right:-115px;
+            top:40px;
+            z-index:111;
+            border:1px solid #ccc;
+            }
+            /*手臂*/
+            #left-arm,
+            #right-arm{
+                height: 270px;
+                width: 120px;
+                border-radius: 50%;
+                background: #fff;
+                margin: 0 auto;
+                position: relative;
+                top: -350px;
+                left: -100px;
+                transform: rotate(20deg);
+                z-index: -1;
+            }
+            #right-arm{
+                transform: rotate(-20deg);
+                left: 100px;
+                top: -620px;
+            }
+            /*手指头*/
+            #l-bigfinger,
+            #r-bigfinger{
+                height: 50px;
+                width: 20px;
+                border-radius: 50%;
+                background: #fff;
+                position: relative;
+                top: 250px;
+                left: 50px;
+                transform: rotate(-50deg);
+            }
+            #r-bigfinger{
+                left: 50px;
+                transform: rotate(50deg);
+            }
+            #l-smallfinger,
+            #r-smallfinger{
+                height: 35px;
+                width: 15px;
+                border-radius: 50%;
+                background: #fff;
+                position: relative;
+                top: 195px;
+                left: 66px;
+                transform: rotate(-40deg);
+            }
+            #r-smallfinger{
+                background: #fff;
+                transform: rotate(40deg);
+                top: 195px;
+                left: 37px;
+            }
+            /*大腿*/
+            #left-leg,
+            #right-leg{
+                height: 170px;
+                width: 90px;
+                border-radius: 40% 30% 10px 45%;
+                background: #fff;
+                position: relative;
+                top: -640px;
+                left: -45px;
+                transform: rotate(-1deg);
+                z-index: -2;
+                margin: 0 auto;
+            }
+            #right-leg{
+                background: #fff;
+                border-radius:30% 40% 45% 10px;
+                margin: 0 auto;
+                top: -810px;
+                left: 50px;
+                transform: rotate(1deg);
+            }
+        </style>
+    <body>
+        <div id="baymax">
+            <!-- 定义头部，包括两个眼睛、嘴 -->
+            <div id="head">
+                <div id="eye"></div>
+                <div id="eye2"></div>
+                <div id="mouth"></div>
+            </div>
+            <!-- 定义躯干，包括心脏 -->
+            <div id="torso">
+                <div id="heart"></div>
+            </div>
+            <!-- 定义肚子腹部，包括 cover（和躯干的连接处） -->
+            <div id="belly">
+                <div id="cover"></div>
+            </div>
+            <!-- 定义左臂，包括一大一小两个手指 -->
+            <div id="left-arm">
+                <div id="l-bigfinger"></div>
+                <div id="l-smallfinger"></div>
+            </div>
+            <!-- 定义右臂，同样包括一大一小两个手指 -->
+            <div id="right-arm">
+                <div id="r-bigfinger"></div>
+                <div id="r-smallfinger"></div>
+            </div>
+            <!-- 定义左腿 -->
+            <div id="left-leg"></div>
+            <!-- 定义右腿 -->
+            <div id="right-leg"></div>
         </div>
-        <!-- 定义躯干，包括心脏 -->
-        <div id="torso">
-            <div id="heart"></div>
-        </div>
-        <!-- 定义肚子腹部，包括 cover（和躯干的连接处） -->
-        <div id="belly">
-            <div id="cover"></div>
-        </div>
-        <!-- 定义左臂，包括一大一小两个手指 -->
-        <div id="left-arm">
-            <div id="l-bigfinger"></div>
-            <div id="l-smallfinger"></div>
-        </div>
-        <!-- 定义右臂，同样包括一大一小两个手指 -->
-        <div id="right-arm">
-            <div id="r-bigfinger"></div>
-            <div id="r-smallfinger"></div>
-        </div>
-        <!-- 定义左腿 -->
-        <div id="left-leg"></div>
-        <!-- 定义右腿 -->
-        <div id="right-leg"></div>
-    </div>
-</body>
-<html>
+    </body>
+    <html>
+    ```
 
-[来源-细数前端中的一些黑科技 - MR_LP的博客 - 博客频道 - CSDN.NET](http://blog.csdn.net/mr_lp/article/details/53539218)
+    [来源-细数前端中的一些黑科技 - MR_LP的博客 - 博客频道 - CSDN.NET](http://blog.csdn.net/mr_lp/article/details/53539218)
 
 ---
 
@@ -1156,13 +1212,15 @@ Wikipedia 上的解释是，这只是一段用来测试排版效果的占位文�
 
 ####  47)   10:39 2017/5/23 使图片变黑白的 CSS。
 
-    .grayscale{
-        -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-        filter: grayscale(100%);
-        filter: gray;
-    }
+```css
+.grayscale{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+```
 
 ---
