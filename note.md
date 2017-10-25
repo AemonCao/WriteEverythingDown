@@ -152,7 +152,9 @@ JS的 `map()`,`filter()`,`reduce()` 方法
 *   [filter()](http://www.cnblogs.com/rocky-fang/p/5757140.html)用于把 Array 的某些元素过滤掉，然后返回剩下的元素组成的数组。
 *   [reduce()](http://www.cnblogs.com/rocky-fang/p/5755755.html)把一个函数作用在这个 Array 的`[x1, x2, x3……]`上，这个函数必须接收两个参数，`reduce()` 把结果继续和序列的下一个元素做累积计算其效果就是：
 
-        [x1, x2, x3, x4].reduce(f) = f(f(f(x1, x2), x3), x4)
+```javascript
+[x1, x2, x3, x4].reduce(f) = f(f(f(x1, x2), x3), x4)
+```
 
 ---
 
